@@ -1,12 +1,12 @@
 ## TODO
 
-1. Install Dependencies
-2. fonts, normalize, template,
-3. Gatsby config
+1. fonts, normalize, template,
+2. Gatsby config
+3. favicon
 4. Add Pages
 5. GraphQL Playground
 6. Add Stripe
-7. Deploy To Netlify
+7. Deploy To Netlify (netlify.toml & netlify functions)
 8. Add Blog
 9. . . .
 
