@@ -48,6 +48,7 @@ TODO
 - Domain Transfer
 - Media Queries
 - Netlify Plugins
+- Edit SEO & Image Components
 
 STRIPE STEPS
 

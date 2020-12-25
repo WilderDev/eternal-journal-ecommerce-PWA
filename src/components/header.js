@@ -2,35 +2,52 @@ import React from "react"
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 
-const Header = ({ siteTitle }) => (
-  <header>
-    <div className="navList">
+// import { CartContext } from "../context/cart"
+
+import headerStyles from "../styles/header.module.scss"
+
+const Header = ({ siteTitle }) => {
+  // const [cart, updateCart] = useContext(CartContext)
+  // const [cartCount, updateCartCount] = useState(0)
+
+  // useEffect(() => {
+  //   updateCartCount(cart.reduce((acc, next) => acc + next.quantity, 0))
+  // }, [cart])
+  return (
+    <header>
       <h1>
         <Link to="/">{siteTitle}</Link>
       </h1>
-    </div>
-    <ul>
-      <li>
-        <Link to="/">Home</Link>
-      </li>
-      <li>
-        <Link to="/all-products">All</Link>
-      </li>
-      <li>
-        <Link to="/guided-journal">Guided Journals</Link>
-      </li>
-      <li>
-        <Link to="/sub-boxes">Subscription Boxes</Link>
-      </li>
-      <li>
-        <Link to="/sub-boxes">Blog</Link>
-      </li>
-      <li>
-        <Link to="/cart">Cart</Link>
-      </li>
-    </ul>
-  </header>
-)
+      <h3>Crystal Clarity Delivered</h3>
+      <nav>
+        <ul>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/all-products">All</Link>
+          </li>
+          <li>
+            <Link to="/guided-journal">Guided Journals</Link>
+          </li>
+          <li>
+            <Link to="/sub-boxes">Subscription Boxes</Link>
+          </li>
+          <li>
+            <Link to="/sub-boxes">Blog</Link>
+          </li>
+          <li>
+            <Link to="/cart">Cart</Link>
+          </li>
+          {/* <li>
+            {cart.length > 0 ? <CartTotal className="cart">{cartCount}</CartTotal> : null}
+            <Link to="/cart">Cart</Link>
+          </li> */}
+        </ul>
+      </nav>
+    </header>
+  )
+}
 
 Header.propTypes = {
   siteTitle: PropTypes.string,
