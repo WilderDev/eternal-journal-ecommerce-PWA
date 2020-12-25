@@ -1,0 +1,39 @@
+.footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 80%;
+  // margin: 0 auto;
+  margin: 100vh auto 0 auto;
+  height: 75px;
+  overflow: hidden;
+  border-top: 1px solid #ccc;
+  border-radius: 2px;
+}
+
+.footer ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: 0 48px;
+}
+
+.footer ul li {
+  list-style: none;
+}
+
+.footer ul li a:hover {
+  outline: none;
+}
+
+.footer ul li a:hover,
+nav ul li a:focus {
+  color: #856d8a;
+}
+
+.footer ul li a:focus {
+  outline-offset: 7px;
+  outline-style: groove;
+}

@@ -8,11 +8,11 @@
 }
 
 .header h1 a {
-  // margin-top: 30px;
   font-size: 42px;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   letter-spacing: 3px;
+  outline: none;
 }
 
 .header h3 {
@@ -52,10 +52,13 @@ nav ul li a {
   color: #2f3e46;
 }
 
+nav ul li:hover {
+  outline: none;
+}
+
 nav ul li a:hover,
 nav ul li a:focus {
   color: #856d8a;
-  outline: none;
 }
 
 nav ul li a:focus {
