@@ -49,6 +49,7 @@ TODO
 - Media Queries
 - Netlify Plugins
 - Edit SEO & Image Components
+- UPDATE homepage with New Products, Featured Products, Subsc boxes . . . ETC . . . Change as you go! (Use your old design . . . it is really nice)
 
 STRIPE STEPS
 

@@ -1,0 +1,67 @@
+.container {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 45px;
+  grid-row-gap: 0px;
+}
+
+.container div {
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-self: center;
+  align-self: center;
+  text-align: center;
+  padding: 0 50px;
+  border: 1px solid #ddd;
+  border-top: 4px solid #52796f;
+  border-radius: 4px;
+  box-shadow: 0px 8px 17px 2px rgba(0, 0, 0, 0.14),
+    0px 3px 14px 2px rgba(0, 0, 0, 0.12), 0px 5px 5px -3px rgba(0, 0, 0, 0.2);
+  transition: all 0.4s ease-in-out;
+}
+
+.container div:hover {
+  // height: 270px;
+  transform: scale(1.1);
+  cursor: pointer;
+  box-shadow: 0px 24px 38px 3px rgba(0, 0, 0, 0.14),
+    0px 9px 46px 8px rgba(0, 0, 0, 0.12), 0px 11px 15px -7px rgba(0, 0, 0, 0.2);
+}
+
+.container div:hover h4 {
+  color: #52796f;
+}
+.container div:hover p {
+  color: #333;
+}
+
+.container div img {
+  height: 115px;
+  min-width: 100px;
+  max-width: 100px;
+  padding-bottom: 25px;
+}
+
+.box1 {
+  grid-area: 1 / 1 / 2 /2;
+}
+
+.box2 {
+  grid-area: 1 / 2 / 2 /3;
+}
+
+.box3 {
+  grid-area: 1 / 3 / 2 / 4;
+}
+
+h4 {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  // margin: 5px 0 3px 0;
+}
