@@ -14,7 +14,7 @@ const Header = ({ siteTitle }) => {
   //   updateCartCount(cart.reduce((acc, next) => acc + next.quantity, 0))
   // }, [cart])
   return (
-    <header>
+    <header className={headerStyles.header}>
       <h1>
         <Link to="/">{siteTitle}</Link>
       </h1>
@@ -22,22 +22,38 @@ const Header = ({ siteTitle }) => {
       <nav>
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/" activeClassName={headerStyles.navActive}>
+              Home
+            </Link>
           </li>
           <li>
-            <Link to="/all-products">All</Link>
+            <Link to="/all-products" activeClassName={headerStyles.navActive}>
+              All
+            </Link>
           </li>
           <li>
-            <Link to="/guided-journal">Guided Journals</Link>
+            <Link to="/guided-journal" activeClassName={headerStyles.navActive}>
+              Guided Journals
+            </Link>
           </li>
           <li>
-            <Link to="/sub-boxes">Subscription Boxes</Link>
+            <Link to="/sub-boxes" activeClassName={headerStyles.navActive}>
+              Subscription Boxes
+            </Link>
           </li>
           <li>
-            <Link to="/sub-boxes">Blog</Link>
+            <Link to="/sub-boxes" activeClassName={headerStyles.navActive}>
+              Blog
+            </Link>
           </li>
           <li>
-            <Link to="/cart">Cart</Link>
+            <Link
+              to="/cart"
+              className={headerStyles.cart}
+              activeClassName={headerStyles.navActive}
+            >
+              Cart
+            </Link>
           </li>
           {/* <li>
             {cart.length > 0 ? <CartTotal className="cart">{cartCount}</CartTotal> : null}

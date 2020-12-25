@@ -1,7 +1,7 @@
 import React from "react"
 
 import Layout from "../template/layout"
-import SEO from "../components/seo"
+import SEO from "../template/seo"
 
 const IndexPage = () => (
   <Layout>

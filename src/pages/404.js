@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../template/layout"
-import SEO from "../components/seo"
+import SEO from "../template/seo"
 
 // https://github.com/gatsbyjs/gatsby/issues/5329#issuecomment-484741119
 const browser = typeof window !== "undefined" && window

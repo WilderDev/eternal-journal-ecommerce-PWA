@@ -1,4 +1,4 @@
-header {
+.header {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -7,18 +7,18 @@ header {
   height: 200px;
 }
 
-h1 {
-  padding-top: 30px;
-  font-size: 52px;
+.header h1 a {
+  // margin-top: 30px;
+  font-size: 42px;
   font-family: "Montserrat", sans-serif;
-  font-weight: 300;
-  letter-spacing: 4px;
+  font-weight: 400;
+  letter-spacing: 3px;
 }
 
-h3 {
+.header h3 {
   letter-spacing: 0.15rem;
-  font-size: 1.05rem;
-  margin: -17px 0 7px 0;
+  font-size: 1.04rem;
+  margin: -20px 0 5px 0;
   padding: 0;
 }
 
@@ -33,11 +33,11 @@ nav {
   border-bottom: 1px solid #ccc;
 }
 
-ul {
+nav ul {
   padding-left: 0;
 }
 
-li {
+nav ul li {
   display: inline;
   position: relative;
   padding: 0 20px;
@@ -48,23 +48,23 @@ li {
   border-right: 1px solid #ddd;
 }
 
-a {
+nav ul li a {
   color: #2f3e46;
 }
 
-a:hover,
-a:focus {
+nav ul li a:hover,
+nav ul li a:focus {
   color: #856d8a;
   outline: none;
 }
 
-a:focus {
+nav ul li a:focus {
   outline-offset: 7px;
   outline-style: groove;
 }
 
-a:active {
-  color: red;
+nav ul li a.nav-active {
+  color: #333;
 }
 
 // a.cart {
