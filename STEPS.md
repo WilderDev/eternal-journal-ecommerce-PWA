@@ -1,6 +1,5 @@
 ## NOW
 
-1. Add Stripe Source Plugin pulling in data with Graphql to populate pages
 2. Add Subscription price to DayNight & Single Purchase
 3. Style theHome page
 4. Add bottom content to Home page
@@ -34,7 +33,8 @@
 2. Figure out automated emails for confirm order, signup, etc
 3. Install Analytics
 4. Add social media to site
-5. Add Star Ratings [https://www.npmjs.com/package/react-star-ratings]
+5. Add Stripe Source Plugin pulling in data with Graphql to populate pages
+6. Add Star Ratings [https://www.npmjs.com/package/react-star-ratings]
 
 ## LATER
 
