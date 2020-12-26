@@ -1,5 +1,32 @@
 .container {
+  margin: 15px auto -20px auto;
   width: 100%;
   height: 59vh;
-  margin: 0 auto;
+  // margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.container h2 {
+  font-size: 1.8rem;
+  margin-bottom: 5px;
+}
+
+.container h4 {
+  font-size: 0.8rem;
+}
+
+.container img {
+  width: 175px;
+  margin: 30px auto;
+  // height: 250px;
+}
+.container a {
+  font-size: 0.85rem;
+}
+
+.container a:hover,
+.container a:focus {
+  color: #856d8a;
 }

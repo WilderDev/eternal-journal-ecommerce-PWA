@@ -35,7 +35,7 @@ const Checkout = () => {
   return (
     <div className={checkoutStyles.container}>
       <button
-        className={checkoutStyles.buy}
+        className={checkoutStyles.paymentBtn}
         disabled={loading}
         style={loading ? { color: "blue" } : { color: "green" }}
         onClick={e => redirectToCheckout(e, "PAYMENT")}
@@ -43,12 +43,12 @@ const Checkout = () => {
         Buy Now
       </button>
       <button
-        className={checkoutStyles.buy}
+        className={checkoutStyles.subscBtn}
         disabled={loading}
         style={loading ? { color: "blue" } : { color: "green" }}
         onClick={e => redirectToCheckout(e, "SUBSCRIPTION")}
       >
-        Get Every Month
+        Get Monthly
       </button>
     </div>
   )

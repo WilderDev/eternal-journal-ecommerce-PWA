@@ -1,4 +1,4 @@
-.buy {
+.container button {
   font-size: 13px;
   text-align: center;
   color: #fff !important;
@@ -7,10 +7,12 @@
   background-color: #52796f;
   border-radius: 6px;
   letter-spacing: 1.5px;
+  margin: 5px;
+  width: 250px;
 }
 
-.buy:hover,
-.buy:focus {
+.container button:hover,
+.container button:focus {
   font-size: 14px;
   background: #856d8a;
   border: 1px solid #333;
