@@ -13,18 +13,16 @@ const Checkout = () => {
 
     let payMode = paymentType === "SUBSCRIPTION" ? "subscription" : "payment"
 
-    console.log(process.env.GATSBY_BUTTON_PRICE_ID)
-
     let envPrice =
       paymentType === "SUBSCRIPTION"
-        ? `${process.env.GATSBY_BUTTON_PRICE_ID}0xQJLxXUvBxIOGRbX9XKfu`
-        : `${process.env.GATSBY_BUTTON_PRICE_ID}2h0oLxXUvBxIOGigGbtJdw`
+        ? `price_1I0xQJLxXUvBxIOGRbX9XKfu`
+        : `price_1I2h0oLxXUvBxIOGigGbtJdw`
 
     const stripe = await getStripe()
     const { error } = await stripe.redirectToCheckout({
       mode: `${payMode}`,
       lineItems: [{ price: envPrice, quantity: 1 }],
-      successUrl: `http://localhost8000/thank-you`,
+      successUrl: `http://localhost:8000/thank-you`,
       cancelUrl: `http://localhost:8000/`,
     })
 
