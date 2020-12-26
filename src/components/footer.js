@@ -23,6 +23,9 @@ const Footer = () => {
         <li>
           <Link to="/podcast">Podcast</Link>
         </li>
+        {/* <li>
+          <Link to="/forum">Forum</Link>
+        </li> */}
         <li>
           <Link to="/give-back">Give</Link>
         </li>

@@ -1,0 +1,17 @@
+.buy {
+  font-size: 13px;
+  text-align: center;
+  color: #fff !important;
+  padding: 12px 60px;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.1);
+  background-color: #52796f;
+  border-radius: 6px;
+  letter-spacing: 1.5px;
+}
+
+.buy:hover,
+.buy:focus {
+  font-size: 14px;
+  background: #856d8a;
+  border: 1px solid #333;
+}

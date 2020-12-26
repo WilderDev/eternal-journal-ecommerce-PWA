@@ -26,27 +26,35 @@ const Header = ({ siteTitle }) => {
               Home
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link to="/all-products" activeClassName={headerStyles.navActive}>
               All
             </Link>
-          </li>
+          </li> */}
           <li>
-            <Link to="/guided-journal" activeClassName={headerStyles.navActive}>
+            <Link
+              to="/guided-journals"
+              activeClassName={headerStyles.navActive}
+            >
               Guided Journals
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link to="/sub-boxes" activeClassName={headerStyles.navActive}>
               Subscription Boxes
             </Link>
-          </li>
+          </li> */}
           <li>
-            <Link to="/sub-boxes" activeClassName={headerStyles.navActive}>
-              Blog
+            <Link to="/mission" activeClassName={headerStyles.navActive}>
+              Our Mission
             </Link>
           </li>
           <li>
+            <Link to="/blog" activeClassName={headerStyles.navActive}>
+              Blog
+            </Link>
+          </li>
+          {/* <li>
             <Link
               to="/cart"
               className={headerStyles.cart}
@@ -54,7 +62,7 @@ const Header = ({ siteTitle }) => {
             >
               Cart
             </Link>
-          </li>
+          </li> */}
           {/* <li>
             {cart.length > 0 ? <CartTotal className="cart">{cartCount}</CartTotal> : null}
             <Link to="/cart">Cart</Link>
