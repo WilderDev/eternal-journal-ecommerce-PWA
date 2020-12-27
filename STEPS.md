@@ -10,7 +10,7 @@
 4. test on live server
 5. add netlify functions, webhooks, plugins
 6. Google Lighthouse Report
-7. Fix all in that report (optimize images / code splitting . . . )
+7. Fix all in that report (optimize images / code splitting . . . ) ("Find out More" / Limit on Blog Posts for Home Page)
 
 ## AFTER
 

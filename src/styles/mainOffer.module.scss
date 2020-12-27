@@ -42,3 +42,33 @@
     height: 62vh;
   }
 }
+
+@media only screen and (min-width: 261px) and (max-width: 900px) {
+  .container {
+    margin: 50px auto 10px auto;
+    height: 65vh;
+  }
+
+  .container h2 {
+    font-size: 1.2rem;
+  }
+
+  .container h4 {
+    font-size: 0.5rem;
+  }
+
+  .container img {
+    width: 175px;
+    margin: 20px auto;
+  }
+  .container a {
+    font-size: 0.85rem;
+  }
+}
+
+@media only screen and (max-width: 361px) {
+  .container {
+    height: 75vh;
+    margin-top: 70px;
+  }
+}

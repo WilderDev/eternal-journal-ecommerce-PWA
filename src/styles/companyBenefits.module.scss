@@ -73,3 +73,41 @@ h4 {
     height: 100px;
   }
 }
+
+@media only screen and (min-width: 261px) and (max-width: 900px) {
+  .container {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container div {
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+    padding: 0 50px;
+  }
+
+  .container div img {
+    height: 115px;
+    min-width: 100px;
+    max-width: 100px;
+    padding-bottom: 25px;
+  }
+  h4 {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+  }
+
+  .container div:hover {
+    transform: none;
+  }
+}
+@media only screen and (max-width: 360px) {
+}

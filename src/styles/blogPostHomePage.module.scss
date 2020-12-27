@@ -39,3 +39,36 @@
     height: 30vh;
   }
 }
+
+@media only screen and (min-width: 261px) and (max-width: 900px) {
+  .container {
+    height: 58vh;
+  }
+
+  .container h2 {
+    margin: 40px auto 30px auto;
+  }
+
+  .allPosts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 70%;
+    width: 100%;
+  }
+
+  .allPosts h3 {
+    font-size: 1.5rem;
+  }
+
+  .allPosts h4 {
+    font-size: 0.7rem;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .container {
+    height: 74vh;
+  }
+}

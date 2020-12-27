@@ -37,3 +37,28 @@
     height: 35vh;
   }
 }
+
+@media screen and (max-width: 900px) {
+  .container {
+    width: 85%;
+    margin: 70px auto 0 auto;
+    text-align: center;
+    border-top: none;
+    height: 34vh;
+  }
+
+  .container h2 {
+    margin-top: 30px;
+  }
+
+  .container img {
+    margin-top: 10px;
+    width: 250px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .container img {
+    width: 175px;
+  }
+}

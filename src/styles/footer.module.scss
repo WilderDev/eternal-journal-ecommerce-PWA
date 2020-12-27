@@ -36,3 +36,20 @@ nav ul li a:focus {
   outline-offset: 7px;
   outline-style: groove;
 }
+
+@media screen and (min-width: 261px) and (max-width: 900px) {
+  .footer {
+    width: 95%;
+    height: 45px;
+  }
+
+  .footer ul li a {
+    font-size: 0.7rem;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .footer ul {
+    padding: 0;
+  }
+}

@@ -96,3 +96,60 @@ nav ul li a.nav-active {
 
 //   }
 // }
+
+@media screen and (min-width: 261px) and (max-width: 900px) {
+  .header {
+    padding: 0;
+    margin-top: 35px;
+    height: 100px;
+  }
+
+  .header h1 a {
+    font-size: 28px;
+  }
+
+  .header h3 {
+    font-size: 0.8rem;
+    margin: -20px 0 -15px 0;
+  }
+
+  nav {
+    width: 85vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    padding: 8px 0;
+  }
+
+  nav ul {
+    padding-left: 0;
+  }
+
+  nav ul li {
+    padding: 0 7px;
+    font-size: 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .header {
+    margin-top: 15px;
+  }
+  .header h1 a {
+    font-size: 24px;
+  }
+
+  .header h3 {
+    font-size: 0.7rem;
+  }
+
+  nav {
+    width: 80%;
+    margin: 30px auto 0 auto;
+  }
+
+  nav ul li {
+    padding: 0 6px;
+  }
+}
