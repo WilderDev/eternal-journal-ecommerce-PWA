@@ -15,15 +15,12 @@
 
 ## AFTER
 
-1. Design Blog Page
+1. Design Blog Page + Responsive
 2. Make three test blogs
-3. Pull data from graphql to populate page
-4. Create single page links with slugs
-5. Design all blog page
-6. Design single pages
-7. Add popup / signup form
-8. Write 3 Solid Blog Posts
-9. Create Lead Magnet & 3 Email Campaigns
+3. Design single pages + Responsive
+4. Add popup / signup form / RSS
+5. Write 3 Solid Blog Posts
+6. Create Lead Magnet & 3 Email Campaigns
 
 ## ONCE COMPLETE
 

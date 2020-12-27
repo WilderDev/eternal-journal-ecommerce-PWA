@@ -1,20 +1,19 @@
 import React from "react"
 
 import companyDescriptionStyles from "../styles/companyDescription.module.scss"
+import kidsInNeedImg from "../images/bg/kidsInNeed.png"
 
 const CompanyDescription = () => {
   return (
     <div className={companyDescriptionStyles.container}>
-      <h2>Who We Are</h2>
-      <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum vel
-        officiis similique odit saepe nobis id in cupiditate officia ipsa?
-      </p>
       <h2>How We Give</h2>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-        quis a voluptatem obcaecati delectus earum minima?
+        BUY our Guided Journal & We DONATE $1 to the{" "}
+        <a href="https://www.kinf.org/" target="_blank" rel="noreferrer">
+          Kids In Need Foundation
+        </a>
       </p>
+      <img src={kidsInNeedImg} alt="Kids In Need Foundation logo" />
     </div>
   )
 }

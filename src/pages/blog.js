@@ -13,7 +13,7 @@ const Blog = ({ data }) => {
     <Layout>
       <SEO title="Blog" />
       <div className={blogPageStyles.container}>
-        <h1>Blog Posts</h1>
+        <h1>Guided Growth Blog Posts</h1>
         <div className={blogPageStyles.allPosts}>
           {posts
             .filter(post => post.node.frontmatter.title.length > 0)
