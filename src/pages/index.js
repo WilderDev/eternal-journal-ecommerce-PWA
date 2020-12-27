@@ -20,8 +20,8 @@ const IndexPage = () => (
     {/* <NewReleases /> */}
     {/* <CompanyVideo /> */}
     {/* <Testimonials /> */}
-    {/* <MainOffer /> */}
     <BlogPostsHomePage />
+    <MainOffer />
   </Layout>
 )
 

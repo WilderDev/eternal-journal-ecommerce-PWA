@@ -27,7 +27,7 @@ const BlogPostHomePage = () => {
       `}
       render={data => (
         <div className={blogPostHomeStyles.container}>
-          <h2>Read Our Blog - Guided Growth</h2>
+          <h2>Read The Guided Growth Blog</h2>
           <div className={blogPostHomeStyles.allPosts}>
             {data.allMarkdownRemark.edges
               .filter(post => post.node.frontmatter.title.length > 0)
