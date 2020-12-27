@@ -28,7 +28,7 @@
 
 @media screen and (max-width: 1367px) {
   .container {
-    height: 27vh;
+    height: 37vh;
   }
 }
 
@@ -60,5 +60,17 @@
 @media only screen and (max-width: 360px) {
   .container img {
     width: 175px;
+  }
+}
+
+@media screen and (min-width: 260px) and (max-width: 900px) and (orientation: landscape) {
+  .container {
+    height: 50vh;
+  }
+}
+
+@media screen and (min-width: 261px) and (min-height: 900px) and (orientation: portrait) {
+  .container {
+    height: 22vh;
   }
 }
