@@ -1,21 +1,31 @@
 ---
 title: "The Second of Few"
 author: "William Wilder"
-date: "2020-12-27T7:14:24.522Z"
-path: "second-of-few"
-"william wilder", "guided growth blog", "Guided Journals", "Eternal Journal", "Topic", "title", "specifics1", "specifics2"
+date: 2020-12-27
+path: "/blog/second-of-few"
+tags:
+  [
+    "william wilder",
+    "guided growth blog",
+    "Guided Journals",
+    "Eternal Journal",
+    "Topic",
+    "title",
+    "specifics1",
+    "specifics2",
+  ]
 ---
 
-## Headline
+# Headline
 
-# Subheadline
+## Subheadline
 
-# Intro
+### Intro
 
-# Point 1
+#### Point 1
 
-# Point 2
+#### Point 2
 
-# Point 3
+#### Point 3
 
-# Conclusion
+### Conclusion
