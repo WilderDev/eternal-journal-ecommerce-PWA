@@ -1,7 +1,3 @@
-## NOW
-
-5. Make Home page Responsive
-
 ## NEXT
 
 1. Upload to netlify

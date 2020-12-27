@@ -7,8 +7,8 @@ const redirectToCheckout = async (event, paymentType) => {
 
   let envPrice =
     paymentType === "SUBSCRIPTION"
-      ? `price_1I0xQJLxXUvBxIOGRbX9XKfu`
-      : `price_1I2h0oLxXUvBxIOGigGbtJdw`
+      ? `price_1HynucLxXUvBxIOG9LR8TZxz`
+      : `price_1HynucLxXUvBxIOGwykhuyWD`
 
   const stripe = await getStripe()
   const { error } = await stripe.redirectToCheckout({
