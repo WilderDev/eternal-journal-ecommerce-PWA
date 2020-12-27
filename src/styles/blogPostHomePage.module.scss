@@ -78,3 +78,9 @@
     height: 120vh;
   }
 }
+
+@media screen and (min-width: 370px) and (max-width: 400px) and (orientation: portrait) {
+  .container {
+    height: 75vh;
+  }
+}
