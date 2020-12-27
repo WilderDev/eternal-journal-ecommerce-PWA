@@ -13,3 +13,15 @@
   margin-top: 20px;
   width: 450px;
 }
+
+.paymentBtn {
+  border: none;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+.paymentBtn:hover {
+  background: none;
+  border: none;
+  color: #333;
+}

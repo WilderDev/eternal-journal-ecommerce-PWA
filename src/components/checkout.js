@@ -12,7 +12,6 @@ const Checkout = () => {
       <button
         className={checkoutStyles.paymentBtn}
         disabled={loading}
-        style={loading ? { color: "blue" } : { color: "green" }}
         onClick={function (e) {
           redirectToCheckout(e, "PAYMENT")
           setLoading(true)
@@ -23,7 +22,6 @@ const Checkout = () => {
       <button
         className={checkoutStyles.subscBtn}
         disabled={loading}
-        style={loading ? { color: "blue" } : { color: "green" }}
         onClick={function (e) {
           redirectToCheckout(e, "SUBSCRIPTION")
           setLoading(true)
