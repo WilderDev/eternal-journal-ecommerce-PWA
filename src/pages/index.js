@@ -9,7 +9,6 @@ import CompanyDescription from "../components/companyDescription"
 // import NewReleases from "../components/newReleases"
 // import Testimonials from "../components/testimonials"
 import BlogPostsHomePage from "../components/blogPostHomePage"
-// import blog
 
 const IndexPage = () => (
   <Layout>

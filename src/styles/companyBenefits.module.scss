@@ -62,3 +62,14 @@ h4 {
   letter-spacing: 0.15em;
   // margin: 5px 0 3px 0;
 }
+
+@media screen and (max-width: 1025px) {
+  .container div {
+    height: 300px;
+    padding: 0 45px;
+  }
+
+  .container div img {
+    height: 100px;
+  }
+}

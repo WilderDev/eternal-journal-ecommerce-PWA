@@ -27,3 +27,15 @@
 .allPosts h4 {
   font-size: 0.7rem;
 }
+
+@media screen and (max-width: 1367px) {
+  .container {
+    height: 25vh;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .container {
+    height: 30vh;
+  }
+}

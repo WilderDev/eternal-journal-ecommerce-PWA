@@ -25,3 +25,15 @@
   border: none;
   color: #333;
 }
+
+@media screen and (max-width: 1367px) {
+  .container {
+    height: 27vh;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .container {
+    height: 35vh;
+  }
+}
