@@ -7,7 +7,8 @@ import MainOffer from "../components/mainOffer"
 import CompanyBenefits from "../components/companyBenefits"
 import CompanyDescription from "../components/companyDescription"
 // import NewReleases from "../components/newReleases"
-import Testimonials from "../components/testimonials"
+// import Testimonials from "../components/testimonials"
+import BlogPostsHomePage from "../components/blogPostHomePage"
 // import blog
 
 const IndexPage = () => (
@@ -20,7 +21,7 @@ const IndexPage = () => (
     {/* <CompanyVideo /> */}
     {/* <Testimonials /> */}
     {/* <MainOffer /> */}
-    {/* <BlogPostsHomePage /> */}
+    <BlogPostsHomePage />
   </Layout>
 )
 
