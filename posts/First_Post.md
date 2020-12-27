@@ -1,7 +1,9 @@
 ---
 title: "The First of Many"
 author: "William Wilder"
-date: "12/24/2020"
+date: "2020-12-24T17:12:44.752Z"
+path: "/first-of-many"
+tags: "william wilder", "guided growth blog", "Guided Journals", "Eternal Journal", "Topic", "title", "specifics1", "specifics2"
 ---
 
 ## Headline

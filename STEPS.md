@@ -1,6 +1,5 @@
 ## NOW
 
-3. Style theHome page
 4. Add bottom content to Home page
 5. Make Home page Responsive
 
