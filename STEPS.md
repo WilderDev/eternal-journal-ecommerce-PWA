@@ -1,15 +1,5 @@
 ## NEXT
 
-1. Upload to netlify
-2. Add netlify.toml file
-3. Change ENV keys & product data
-4. test on live server
-5. add netlify functions, webhooks, plugins
-6. Google Lighthouse Report
-7. Fix all in that report (optimize images / code splitting . . . ) ("Find out More" / Limit on Blog Posts for Home Page)
-
-## AFTER
-
 1. Design Blog Page + Responsive
 2. Make three test blogs
 3. Design single pages + Responsive
@@ -46,14 +36,18 @@
 
 ## WHEN ALL SAID & DONE
 
-1. Analyze
-2. Refine
-3. Speed up
-4. Test
-5. SEO
-6. Track Funnel
-7. Ask Feedback
-8. Copywriting
-9. Posting Blogs
-10. Delegate / Hire
-11. Scale ! ! !
+2. Add netlify.toml file
+3. add netlify functions, webhooks, plugins
+4. Google Lighthouse Report
+5. Fix all in that report (optimize images / code splitting . . . )
+6. Analyze
+7. Refine
+8. Speed up
+9. Test
+10. SEO
+11. Track Funnel
+12. Ask Feedback
+13. Copywriting
+14. Posting Blogs
+15. Delegate / Hire
+16. Scale ! ! !

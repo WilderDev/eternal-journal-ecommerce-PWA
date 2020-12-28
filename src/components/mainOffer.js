@@ -14,8 +14,7 @@ const MainOffer = () => {
       <img src={dayNightImg} alt="Day & Night Journal" />
       <Checkout />
       <p>
-        {/* <Link to="/products/day-and-night-guided-journal">Find Out More</Link> */}
-        <Link to="/">Find Out More</Link>
+        <Link to="/guided-journals">Save BIG On Monthly Orders</Link>
       </p>
     </div>
   )
