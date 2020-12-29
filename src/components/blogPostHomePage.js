@@ -21,6 +21,7 @@ const BlogPostHomePage = () => {
                   date(formatString: "MMMM DD, YYYY")
                   path
                 }
+                timeToRead
               }
             }
           }
@@ -40,6 +41,7 @@ const BlogPostHomePage = () => {
                         {post.frontmatter.title}
                       </Link>
                     </h3>
+                    {/* <p>{post.timeToRead}</p> */}
                     <h4>{post.frontmatter.date}</h4>
                     <p>{post.excerpt}</p>
                   </div>

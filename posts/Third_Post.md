@@ -3,6 +3,7 @@ title: "The Third of All"
 author: "William Wilder"
 date: 2020-12-29
 path: "/blog/third-post"
+featuredImage: /blog/book-coffee.jpg
 tags:
   [
     "william wilder",

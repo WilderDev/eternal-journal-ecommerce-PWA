@@ -25,6 +25,9 @@ const Blog = ({ data }) => {
                       {post.frontmatter.title}
                     </Link>
                   </h2>
+                  <p>
+                    Time To Read: <i>{post.timeToRead} minute</i>
+                  </p>
                   <h3>{post.frontmatter.date}</h3>
                   <p>{post.excerpt}</p>
                 </div>
@@ -48,6 +51,7 @@ export const blogQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             path
           }
+          timeToRead
         }
       }
     }

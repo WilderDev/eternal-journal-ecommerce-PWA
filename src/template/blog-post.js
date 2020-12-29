@@ -13,6 +13,7 @@ const BlogPostTemplate = ({ data }) => {
 
       <div className={blogPostStyles.post}>
         <h1>{post.frontmatter.title}</h1>
+        <h2>{post.timeToRead}</h2>
         <div
           className={blogPostStyles.postContent}
           dangerouslySetInnerHTML={{ __html: post.html }}
@@ -30,7 +31,9 @@ export const blogPageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         path
         title
+        tags
       }
+      timeToRead
     }
   }
 `
