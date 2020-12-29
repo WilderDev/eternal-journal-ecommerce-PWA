@@ -25,6 +25,10 @@ const Blog = ({ data }) => {
                       {post.frontmatter.title}
                     </Link>
                   </h2>
+                  <img
+                    src="https://source.unsplash.com/random/200x200"
+                    alt=""
+                  />
                   <p>
                     Time To Read: <i>{post.timeToRead} minute</i>
                   </p>

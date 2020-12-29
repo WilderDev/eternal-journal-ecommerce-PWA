@@ -15,6 +15,7 @@
 4. Add social media to site
 5. Add Stripe Source Plugin pulling in data with Graphql to populate pages
 6. Add Star Ratings [https://www.npmjs.com/package/react-star-ratings]
+7. Figure out how to bring in Gatsby Image for all images + blog posts
 
 ## LATER
 

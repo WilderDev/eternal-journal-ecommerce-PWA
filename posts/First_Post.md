@@ -1,8 +1,9 @@
 ---
-title: "The First of Many"
+title: "The First of Many Tababababababaa akdsjf"
 author: "William Wilder"
 date: 2020-12-24
 path: "/blog/first-of-many"
+featuredImage: ../src/images/blog/book-coffee.jpg
 tags:
   [
     "william wilder",

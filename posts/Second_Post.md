@@ -4,6 +4,7 @@ author: "William Wilder"
 date: 2020-12-27
 path: "/blog/second-of-few"
 featuredImage: /blog/book-coffee.jpg
+
 tags:
   [
     "william wilder",
