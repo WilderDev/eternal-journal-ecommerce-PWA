@@ -25,15 +25,23 @@ const Blog = ({ data }) => {
                       {post.frontmatter.title}
                     </Link>
                   </h2>
-                  <img
-                    src="https://source.unsplash.com/random/200x200"
-                    alt=""
-                  />
-                  <p>
-                    Time To Read: <i>{post.timeToRead} minute</i>
-                  </p>
+                  <Link to={post.frontmatter.path}>
+                    <img
+                      src="https://source.unsplash.com/random/200x200"
+                      alt=""
+                    />
+                  </Link>
                   <h3>{post.frontmatter.date}</h3>
-                  <p>{post.excerpt}</p>
+                  <p className={blogPageStyles.readTime}>
+                    Read Time: <i>{post.timeToRead} min</i>
+                  </p>
+                  <p className={blogPageStyles.postExcerpt}>{post.excerpt}</p>
+                  <Link
+                    className={blogPageStyles.readMore}
+                    to={post.frontmatter.path}
+                  >
+                    Read More
+                  </Link>
                 </div>
               )
             })}
