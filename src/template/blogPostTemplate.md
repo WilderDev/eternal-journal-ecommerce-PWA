@@ -1,10 +1,9 @@
 ---
-title: "The Second of Few"
+title: "The First of Many Tababababababaa akdsjf"
 author: "William Wilder"
-date: 2020-12-27
-path: "/blog/second-of-few"
-featuredImage: /blog/book-coffee.jpg
-
+date: 2020-12-24
+path: "/blog/first-of-many"
+featuredImage: ../images/blog/book-coffee.jpg
 tags:
   [
     "william wilder",
@@ -31,3 +30,5 @@ tags:
 #### Point 3
 
 ### Conclusion
+
+[Markdown Guide](https://www.markdownguide.org/basic-syntax)

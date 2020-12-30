@@ -27,6 +27,7 @@ module.exports = {
     {
       resolve: "gatsby-transformer-remark",
       options: {
+        excerpt_separator: `<!-- end -->`,
         plugins: [], // just in case those previously mentioned remark plugins sound cool :)
       },
     },

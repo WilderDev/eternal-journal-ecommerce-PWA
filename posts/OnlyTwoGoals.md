@@ -1,9 +1,9 @@
 ---
-title: "3 Bulletproof Mentalities For 2021"
+title: "The Only 2 Goals You Will Ever Need"
 author: "William Wilder"
-date: 2020-12-29
-path: "/blog/3-bulletproof-mentalities-for-2021"
-featuredImage: /blog/book-coffee.jpg
+date: 2020-12-24
+path: "/blog/only-two-goals-you-will-ever-need"
+featuredImage: ../images/blog/book-coffee.jpg
 tags:
   [
     "william wilder",
@@ -17,7 +17,7 @@ tags:
   ]
 ---
 
-# Headline
+# The Only Two Goals You Will Ever Need
 
 ## Subheadline
 
@@ -30,3 +30,5 @@ tags:
 #### Point 3
 
 ### Conclusion
+
+[Markdown Guide](https://www.markdownguide.org/basic-syntax)

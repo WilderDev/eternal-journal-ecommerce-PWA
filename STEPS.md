@@ -1,25 +1,12 @@
 ## NEXT
 
-1. Design Blog Page + Responsive
-2. Make three test blogs
 3. Design single pages + Responsive
-4. Add popup / signup form / RSS
-5. Write 3 Solid Blog Posts
-6. Create Lead Magnet & 3 Email Campaigns
-
-## ONCE COMPLETE
-
-1. Figure out shipping plugin / admin dashboard
-2. Figure out automated emails for confirm order, signup, etc
-3. Install Analytics
-4. Add social media to site
-5. Add Stripe Source Plugin pulling in data with Graphql to populate pages
-6. Add Star Ratings [https://www.npmjs.com/package/react-star-ratings]
-7. Figure out how to bring in Gatsby Image for all images + blog posts
+4. Figure out how to bring in Gatsby Image for all images + blog posts
+5. Add popup / signup form / RSS
 
 ## LATER
 
-\*\* (Do Responsive design for all of these)
+\*\* (Do Responsive design for all of these) (Read Docs While Doing This)
 
 1. Thank You Page
 2. Our Mission Page
@@ -33,22 +20,41 @@
 10. Forum
 11. All Products Page (and update home page from previous site)
 12. Sub Boxes Page
-13. Cart Page (Update how to checkout . . . you should have more products by now)
+13. Cart Page (Update how to checkout . . . you should have more products by now) (https://useshoppingcart.com/) (https://github.com/brxck/gatsby-starter-stripe)
+
+## ONCE COMPLETE
+
+1. Figure out shipping plugin / admin dashboard (https://github.com/brxck/gatsby-starter-stripe) (https://www.gatsbyjs.com/tutorial/authentication-tutorial/)
+2. Figure out automated emails for confirm order, signup, etc
+3. Install Analytics
+4. Add social media to site
+5. Add Stripe Source Plugin pulling in data with Graphql to populate pages
+6. Add Star Ratings [https://www.npmjs.com/package/react-star-ratings]
+7. Add Search Functionality (https://www.youtube.com/watch?v=0Hgswu7Ulag&ab_channel=Crystallize) (https://www.gatsbyjs.com/docs/adding-search-with-js-search/) (https://www.stackbit.com/blog/gatsby-search/) (https://www.emgoto.com/gatsby-search/)
+8. Web Push Notifications
+9. Authentication for users (https://www.youtube.com/watch?v=eMOnbgKRIYE&ab_channel=Gatsby) (Login, Register, User Profile . . .)
 
 ## WHEN ALL SAID & DONE
 
 2. Add netlify.toml file
 3. add netlify functions, webhooks, plugins
-4. Google Lighthouse Report
-5. Fix all in that report (optimize images / code splitting . . . )
-6. Analyze
-7. Refine
-8. Speed up
-9. Test
-10. SEO
-11. Track Funnel
-12. Ask Feedback
-13. Copywriting
-14. Posting Blogs
-15. Delegate / Hire
-16. Scale ! ! !
+4. Add Subscribe to Home & Blog Page
+5. Write 3 Solid Blog Posts
+6. Create Lead Magnet & 3 Email Campaigns
+7. Add Page Transitions (https://www.gatsbyjs.com/plugins/gatsby-v2-plugin-page-transitions/)
+8. Google Lighthouse Report
+9. Fix all in that report (optimize images / code splitting . . . )
+10. Integrate Gatsby Cloud for Build Service
+11. Lazy Loading (intersection observer)
+12. Analyze
+13. Refine
+14. Speed up (https://www.youtube.com/watch?v=EYdJIKgLuCU&ab_channel=Gatsby) (https://www.youtube.com/watch?v=ZEIyRI2-Fa0&ab_channel=Gatsby)
+15. Accessibility (https://www.youtube.com/watch?v=qmcclQ7UPLk&ab_channel=Gatsby)
+16. Test
+17. SEO
+18. Track Funnel
+19. Ask Feedback
+20. Copywriting
+21. Posting Blogs
+22. Delegate / Hire
+23. Scale ! ! !

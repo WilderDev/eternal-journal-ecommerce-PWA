@@ -1,9 +1,10 @@
 ---
-title: "The First of Many Tababababababaa akdsjf"
+title: "7 Best Affirmations Of All Time!"
 author: "William Wilder"
-date: 2020-12-24
-path: "/blog/first-of-many"
-featuredImage: ../src/images/blog/book-coffee.jpg
+date: 2020-12-27
+path: "/blog/7-best-affirmations-of-all-time"
+featuredImage: testImage
+
 tags:
   [
     "william wilder",
@@ -17,9 +18,11 @@ tags:
   ]
 ---
 
-# Headline
+alkdsjf;lkasjf;lkasdjf;lkjasd;lkfja;lksfjl;kajfl;kadjsf;lkjasl;kdfjslda;kjfl;kajsd
 
-Markdown Guide (https://www.markdownguide.org/basic-syntax)
+<!-- end -->
+
+# Headline
 
 ## Subheadline
 
