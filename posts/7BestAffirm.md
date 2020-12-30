@@ -1,5 +1,6 @@
 ---
 title: "7 Best Affirmations Of All Time!"
+subTitle: "All The Phrases You Need To Succeed In Life"
 author: "William Wilder"
 date: 2020-12-27
 path: "/blog/7-best-affirmations-of-all-time"
@@ -18,15 +19,13 @@ tags:
   ]
 ---
 
-alkdsjf;lkasjf;lkasdjf;lkjasd;lkfja;lksfjl;kajfl;kadjsf;lkjasl;kdfjslda;kjfl;kajsd
-
-<!-- end -->
-
-# Headline
-
-## Subheadline
-
 ### Intro
+
+This should be the excerpt
+
+<!-- endexcerpt -->
+
+And continue the intro
 
 #### Point 1
 

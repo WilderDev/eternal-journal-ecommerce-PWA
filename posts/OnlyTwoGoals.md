@@ -1,5 +1,6 @@
 ---
 title: "The Only 2 Goals You Will Ever Need"
+subTitle: "Practice Making Subtitles"
 author: "William Wilder"
 date: 2020-12-24
 path: "/blog/only-two-goals-you-will-ever-need"
@@ -17,11 +18,13 @@ tags:
   ]
 ---
 
-# The Only Two Goals You Will Ever Need
-
-## Subheadline
-
 ### Intro
+
+This should be the excerpt
+
+<!-- endexcerpt -->
+
+And continue the intro
 
 #### Point 1
 

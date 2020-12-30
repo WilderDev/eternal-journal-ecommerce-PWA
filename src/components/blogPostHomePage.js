@@ -18,6 +18,7 @@ const BlogPostHomePage = () => {
                 id
                 frontmatter {
                   title
+                  subTitle
                   date(formatString: "MMMM DD, YYYY")
                   path
                 }
@@ -29,7 +30,7 @@ const BlogPostHomePage = () => {
       `}
       render={data => (
         <div className={blogPostHomeStyles.container}>
-          <h2>Read The Guided Growth Blog</h2>
+          <h2>Guided Growth Blog</h2>
           <div className={blogPostHomeStyles.allPosts}>
             {data.allMarkdownRemark.edges
               .filter(post => post.node.frontmatter.title.length > 0)
@@ -41,8 +42,10 @@ const BlogPostHomePage = () => {
                         {post.frontmatter.title}
                       </Link>
                     </h3>
-                    {/* <p>{post.timeToRead}</p> */}
-                    <h4>{post.frontmatter.date}</h4>
+                    <h4>{post.frontmatter.subTitle}</h4>
+                    <p>
+                      <i>Length: {post.timeToRead} min</i>
+                    </p>
                     <p>{post.excerpt}</p>
                   </div>
                 )

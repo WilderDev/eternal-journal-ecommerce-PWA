@@ -13,6 +13,7 @@ const BlogPostTemplate = ({ data }) => {
 
       <div className={blogPostStyles.post}>
         <h1>{post.frontmatter.title}</h1>
+        <h2>{post.frontmatter.subTitle}</h2>
         <h3>By: {post.frontmatter.author}</h3>
         <div
           className={blogPostStyles.postContent}
@@ -31,6 +32,7 @@ export const blogPageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         path
         title
+        subTitle
         tags
         author
       }
