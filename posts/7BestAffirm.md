@@ -1,5 +1,5 @@
 ---
-title: "7 Best Affirmations Of All Time!"
+title: "7 BEST Affirmations Of All-Time!"
 subTitle: "All The Phrases You Need To Succeed In Life"
 author: "William Wilder"
 date: 2020-12-27

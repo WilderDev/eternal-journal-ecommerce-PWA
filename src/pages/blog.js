@@ -25,6 +25,11 @@ const Blog = ({ data }) => {
                       {post.frontmatter.title}
                     </Link>
                   </h2>
+                  <h3>
+                    <Link to={post.frontmatter.path}>
+                      {post.frontmatter.subTitle}
+                    </Link>
+                  </h3>
                   <Link to={post.frontmatter.path}>
                     <img
                       src="https://source.unsplash.com/random/200x200"
@@ -60,6 +65,7 @@ export const blogQuery = graphql`
           id
           frontmatter {
             title
+            subTitle
             date(formatString: "MMMM DD, YYYY")
             path
           }

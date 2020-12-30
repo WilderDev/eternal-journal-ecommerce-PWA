@@ -1,5 +1,5 @@
 ---
-title: "The Only 2 Goals You Will Ever Need"
+title: "The ONLY  2 Goals You Will Ever Need"
 subTitle: "Practice Making Subtitles"
 author: "William Wilder"
 date: 2020-12-24
