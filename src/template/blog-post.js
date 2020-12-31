@@ -1,6 +1,8 @@
 import React from "react"
 import { Helmet } from "react-helmet"
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
+
+import Layout from "./layout"
 
 import blogPostStyles from "../styles/blogPost.module.scss"
 
@@ -8,19 +10,26 @@ const BlogPostTemplate = ({ data }) => {
   const { markdownRemark: post } = data
 
   return (
-    <div className={blogPostStyles.container}>
-      <Helmet title={`Guided Growth Blog - ${post.frontmatter.title}`} />
+    <Layout>
+      <div className={blogPostStyles.container}>
+        <Helmet title={`Guided Growth Blog - ${post.frontmatter.title}`} />
 
-      <div className={blogPostStyles.post}>
-        <h1>{post.frontmatter.title}</h1>
-        <h2>{post.frontmatter.subTitle}</h2>
-        <h3>By: {post.frontmatter.author}</h3>
-        <div
-          className={blogPostStyles.postContent}
-          dangerouslySetInnerHTML={{ __html: post.html }}
-        />
+        <div className={blogPostStyles.post}>
+          <h1>{post.frontmatter.title}</h1>
+          <h2>{post.frontmatter.subTitle}</h2>
+          <h3>By: {post.frontmatter.author}</h3>
+          <div
+            className={blogPostStyles.postContent}
+            dangerouslySetInnerHTML={{ __html: post.html }}
+          />
+        </div>
+        <div className={blogPostStyles.blogBotNavigation}>
+          <Link to="/blog/">Previous Post</Link>
+          {/* <Link to="/guided-journals/">Get Our Guided Journal</Link> */}
+          <Link to="/blog/">Next Post</Link>
+        </div>
       </div>
-    </div>
+    </Layout>
   )
 }
 

@@ -51,6 +51,9 @@ const BlogPostHomePage = () => {
                 )
               })}
           </div>
+          <Link className={blogPostHomeStyles.seeAll} to="/blog">
+            See All Posts
+          </Link>
         </div>
       )}
     />

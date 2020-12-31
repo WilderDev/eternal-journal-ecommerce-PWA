@@ -1,3 +1,122 @@
 .container {
-  height: 30vh;
+  height: 100%;
+  border: 3px solid #333;
+  border-radius: 10px;
+  text-align: center;
+  padding: 25px;
+  background-image: linear-gradient(
+    to top,
+    #dadbda 0%,
+    #dcdddf 52%,
+    #f3f0e7 100%
+  );
+  width: 85%;
+  margin: 0 auto;
 }
+
+.post {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.post:nth-of-type(1) {
+  text-align: center;
+}
+
+.post h1 {
+  margin-bottom: 3px;
+}
+
+.post h2 {
+  font-size: 1.4rem;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.post h3 {
+  font-size: 1rem;
+  font-weight: 300;
+  font-family: "Montserrat";
+  margin-bottom: 10px;
+}
+
+.post img {
+  // max-height: 300px;
+  margin: 0 auto;
+}
+
+.post p {
+  text-align: left;
+  letter-spacing: 0.85px;
+}
+
+.postContent blockquote:nth-of-type(1):first-letter {
+  color: rgba(153, 0, 51, 0.664);
+  float: left;
+  font-size: 55px;
+  line-height: 20px;
+  padding-top: 4px;
+  padding-right: 3px;
+  padding-left: 3px;
+}
+
+// .postContent {
+// }
+
+.blogBotNavigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container hr:nth-of-type(1) {
+  height: 30px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px 0 0 0;
+  border-radius: 20px;
+  box-shadow: none !important;
+}
+
+.container hr:nth-of-type(1):before {
+  display: block;
+  content: "";
+  height: 30px;
+  margin-top: -31px;
+  border-style: solid;
+  border-color: black;
+  border-width: 0 0 1px 0;
+  border-radius: 20px;
+}
+
+.container hr:nth-of-type(2) {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0)
+  );
+}
+
+.container hr {
+  height: 12px;
+  border: 0;
+  box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+
+.postContent h4 {
+  // color: white;
+  font-size: 1.35rem;
+}
+
+.postContent p {
+  color: #333;
+  font-size: 1.1rem;
+}
+
+// @media and screen () {
+//  .post {
+//  width: 75%
+//  }
+// }
