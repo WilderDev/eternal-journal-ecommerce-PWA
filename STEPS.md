@@ -1,6 +1,5 @@
 ## NEXT
 
-3. Design single pages + Responsive
 4. Figure out how to bring in Gatsby Image for all images + blog posts
 
 ## LATER

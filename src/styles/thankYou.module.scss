@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  // justify-content: space-around;
+}
+
+.container .top,
+.container .bottom,
+.container .aboutUs,
+.container .purchaseAgain {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container h1 {
+  margin-bottom: 5px;
+}
+
+.container h2 {
+  font-weight: 300;
+  color: #333;
+  font-size: 1.2rem;
+}
