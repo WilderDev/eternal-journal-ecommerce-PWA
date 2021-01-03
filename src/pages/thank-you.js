@@ -1,8 +1,11 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../template/layout"
 import SEO from "../template/seo"
+
+import firstPDF from "../data/DayNightExtra_Affirmation.pdf"
+import secondPDF from "../data/DayNightExtra_Quote.pdf"
+import thirdPDF from "../data/DayNightExtra_Habits.pdf"
 
 import thankYouStyles from "../styles/thankYou.module.scss"
 
@@ -25,13 +28,19 @@ const ThankYou = () => (
           <h1>Free PDF Downloads</h1>
           <h2>Because You Are Worth It</h2>
           <p>
-            <Link>PDF 1</Link>
+            <a href={firstPDF} rel="noreferrer" target="_blank">
+              PDF 1: Guided Affirmations
+            </a>
           </p>
           <p>
-            <Link>PDF 2</Link>
+            <a href={secondPDF} rel="noreferrer" target="_blank">
+              PDF 2: Quality Quotes
+            </a>
           </p>
           <p>
-            <Link>PDF 3</Link>
+            <a href={thirdPDF} rel="noreferrer" target="_blank">
+              PDF 3: Habit Tracker
+            </a>
           </p>
         </div>
       </div>
