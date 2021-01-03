@@ -1,3 +1,9 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .container button {
   font-size: 13px;
   text-align: center;
@@ -8,7 +14,7 @@
   border-radius: 6px;
   letter-spacing: 1.5px;
   margin: 5px;
-  width: 250px;
+  max-width: 250px;
 }
 
 .container button:hover,
@@ -16,4 +22,10 @@
   transform: scale(1.03);
   background: #856d8a;
   border: 1px solid #333;
+}
+
+@media screen and (max-width: 415px) {
+  .container {
+    flex-direction: column;
+  }
 }

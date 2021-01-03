@@ -2,6 +2,7 @@ import React from "react"
 
 import Layout from "../template/layout"
 import SEO from "../template/seo"
+import Checkout from "../components/checkout"
 
 import firstPDF from "../data/DayNightExtra_Affirmation.pdf"
 import secondPDF from "../data/DayNightExtra_Quote.pdf"
@@ -46,13 +47,35 @@ const ThankYou = () => (
       </div>
       <div className={thankYouStyles.bottom}>
         <div className={thankYouStyles.aboutUs}>
-          <h1>Who We Are</h1>
-          <h2>Blog</h2>
+          <h1>How To Find Us</h1>
           <h2>Socials</h2>
+          <div className={thankYouStyles.socialContainer}>
+            <p>
+              <a href="/blog" rel="noreferrer" target="_blank">
+                Blog
+              </a>
+            </p>
+            <p>
+              <a href="/podcast" rel="noreferrer" target="_blank">
+                Podcast
+              </a>
+            </p>
+            <p>
+              <a href="/blog" rel="noreferrer" target="_blank">
+                Pintrest
+              </a>
+            </p>
+            {/* <p>
+              <a href="/podcast" rel="noreferrer" target="_blank">
+                Email
+              </a>
+            </p> */}
+          </div>
         </div>
         <div className={thankYouStyles.purchaseAgain}>
           <h1>Purchase Again</h1>
           <h2>Get yourself a treat or Give it to a loved one</h2>
+          <Checkout className={thankYouStyles.checkout} />
         </div>
       </div>
       <div className={thankYouStyles.claimReward}>
