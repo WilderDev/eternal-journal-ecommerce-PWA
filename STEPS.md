@@ -45,15 +45,16 @@
 10. Fix all in that report (optimize images / code splitting . . . )
 11. Integrate Gatsby Cloud for Build Service
 12. Lazy Loading (intersection observer)
-13. Analyze
-14. Refine
-15. Speed up (https://www.youtube.com/watch?v=EYdJIKgLuCU&ab_channel=Gatsby) (https://www.youtube.com/watch?v=ZEIyRI2-Fa0&ab_channel=Gatsby)
-16. Accessibility (https://www.youtube.com/watch?v=qmcclQ7UPLk&ab_channel=Gatsby)
-17. Test
-18. SEO
-19. Track Funnel
-20. Ask Feedback
-21. Copywriting
-22. Posting Blogs
-23. Delegate / Hire
-24. Scale ! ! !
+13. Better Coupon System
+14. Analyze
+15. Refine
+16. Speed up (https://www.youtube.com/watch?v=EYdJIKgLuCU&ab_channel=Gatsby) (https://www.youtube.com/watch?v=ZEIyRI2-Fa0&ab_channel=Gatsby)
+17. Accessibility (https://www.youtube.com/watch?v=qmcclQ7UPLk&ab_channel=Gatsby)
+18. Test
+19. SEO
+20. Track Funnel
+21. Ask Feedback
+22. Copywriting
+23. Posting Blogs
+24. Delegate / Hire
+25. Scale ! ! !

@@ -80,10 +80,16 @@ const ThankYou = () => (
       </div>
       <div className={thankYouStyles.claimReward}>
         <h1>Get 10% OFF Your Next Order!</h1>
-        <button>Claim Your Reward</button>
+        <button onClick={e => showCoupon(e)}>Claim Your Reward</button>
       </div>
     </div>
   </Layout>
 )
+
+export function showCoupon(e) {
+  e.preventDefault()
+
+  alert("Coupon Code: CrystalClear")
+}
 
 export default ThankYou
