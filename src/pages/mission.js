@@ -1,5 +1,5 @@
 import React from "react"
-import { useStaticQuery } from "gatsby"
+import { graphql, useStaticQuery } from "gatsby"
 
 import missionStyles from "../styles/mission.module.scss"
 import Img from "gatsby-image"

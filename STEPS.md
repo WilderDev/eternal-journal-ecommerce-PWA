@@ -1,12 +1,11 @@
 ## NOW
 
-3. Guided Journals Page
-4. Podcast Page (try to use a theme)
-5. FAQ Page
-6. Give Back Page
-7. About Page
-8. 404 Page
-9. Contact Page
+1. Podcast Page
+2. FAQ Page
+3. Give Back Page
+4. About Page
+5. 404 Page
+6. Contact Page
 
 ## ONCE COMPLETE
 
@@ -36,17 +35,14 @@
 12. Lazy Loading (intersection observer)
 13. Better Coupon System
 14. Add Forum
-15. Analyze
-16. Refine
-17. Speed up (https://www.youtube.com/watch?v=EYdJIKgLuCU&ab_channel=Gatsby) (https://www.youtube.com/watch?v=ZEIyRI2-Fa0&ab_channel=Gatsby)
-18. Accessibility (https://www.youtube.com/watch?v=qmcclQ7UPLk&ab_channel=Gatsby)
-19. Test
-20. SEO
-21. Track Funnel
-22. Ask Feedback
-23. Copywriting
-24. Posting Blogs
-25. Delegate / Hire
-26. All products & Sub box pages
-27. Cart Page (Update how to checkout . . . you should have more products by now) (https://useshoppingcart.com/) (https://github.com/brxck/gatsby-starter-stripe)
-28. Scale ! ! !
+15. Refine (Styles, Code , etc)
+16. Speed up (https://www.youtube.com/watch?v=EYdJIKgLuCU&ab_channel=Gatsby) (https://www.youtube.com/watch?v=ZEIyRI2-Fa0&ab_channel=Gatsby)
+17. Accessibility (https://www.youtube.com/watch?v=qmcclQ7UPLk&ab_channel=Gatsby)
+18. Test
+19. Track Funnel
+20. Ask Feedback
+21. Pull in Buzzsprout API Data (https://github.com/Buzzsprout/buzzsprout-api)
+22. Copywriting (Go back and edit all writing)
+23. Posting Blogs Schedule?
+24. All products & Sub box pages
+25. Cart Page (Update how to checkout . . . you should have more products by now) (https://useshoppingcart.com/) (https://github.com/brxck/gatsby-starter-stripe)
