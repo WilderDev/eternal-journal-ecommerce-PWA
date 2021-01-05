@@ -1,17 +1,12 @@
 ## NOW
 
-2. Our Mission Page
 3. Guided Journals Page
-4. Podcast Page
+4. Podcast Page (try to use a theme)
 5. FAQ Page
 6. Give Back Page
 7. About Page
 8. 404 Page
 9. Contact Page
-10. Forum
-11. All Products Page (and update home page from previous site)
-12. Sub Boxes Page
-13. Cart Page (Update how to checkout . . . you should have more products by now) (https://useshoppingcart.com/) (https://github.com/brxck/gatsby-starter-stripe)
 
 ## ONCE COMPLETE
 
@@ -40,15 +35,18 @@
 11. Integrate Gatsby Cloud for Build Service
 12. Lazy Loading (intersection observer)
 13. Better Coupon System
-14. Analyze
-15. Refine
-16. Speed up (https://www.youtube.com/watch?v=EYdJIKgLuCU&ab_channel=Gatsby) (https://www.youtube.com/watch?v=ZEIyRI2-Fa0&ab_channel=Gatsby)
-17. Accessibility (https://www.youtube.com/watch?v=qmcclQ7UPLk&ab_channel=Gatsby)
-18. Test
-19. SEO
-20. Track Funnel
-21. Ask Feedback
-22. Copywriting
-23. Posting Blogs
-24. Delegate / Hire
-25. Scale ! ! !
+14. Add Forum
+15. Analyze
+16. Refine
+17. Speed up (https://www.youtube.com/watch?v=EYdJIKgLuCU&ab_channel=Gatsby) (https://www.youtube.com/watch?v=ZEIyRI2-Fa0&ab_channel=Gatsby)
+18. Accessibility (https://www.youtube.com/watch?v=qmcclQ7UPLk&ab_channel=Gatsby)
+19. Test
+20. SEO
+21. Track Funnel
+22. Ask Feedback
+23. Copywriting
+24. Posting Blogs
+25. Delegate / Hire
+26. All products & Sub box pages
+27. Cart Page (Update how to checkout . . . you should have more products by now) (https://useshoppingcart.com/) (https://github.com/brxck/gatsby-starter-stripe)
+28. Scale ! ! !

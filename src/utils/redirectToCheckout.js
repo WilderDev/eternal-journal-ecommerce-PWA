@@ -14,8 +14,8 @@ const redirectToCheckout = async (event, paymentType) => {
   const { error } = await stripe.redirectToCheckout({
     mode: `${payMode}`,
     lineItems: [{ price: envPrice, quantity: 1 }],
-    successUrl: `https://eternaljournal.netlify.app/thank-you`,
-    cancelUrl: `https://eternaljournal.netlify.app/`,
+    successUrl: `https://etnjournal.com/thank-you`,
+    cancelUrl: `https://enjournal.com/`,
   })
 
   if (error) {
