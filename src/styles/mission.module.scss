@@ -1,0 +1,80 @@
+.container {
+  text-align: center;
+}
+
+.container h1 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 1.85rem;
+}
+
+.container h4 {
+  margin-bottom: -5px;
+  font-size: 1.1rem;
+}
+
+.container h5 {
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.container p {
+  margin-top: 10px;
+}
+
+.imageLogo {
+  margin: 25px auto 0 auto;
+}
+
+@media screen and (max-width: 1300px) and (orientation: landscape) {
+  .container {
+    height: 50vh;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .container {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container h1 {
+    margin-top: 10px;
+  }
+
+  .imageLogo {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .container {
+    height: 60vh;
+  }
+
+  .container h1 {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 824px) and (orientation: landscape) {
+  .container {
+    height: 210vh;
+  }
+
+  .container h1 {
+    margin-top: 60px;
+  }
+}
+
+@media screen and (max-width: 541px) and (orientation: portrait) {
+  .container {
+    height: 100vh;
+  }
+
+  .container h1 {
+    margin-top: 60px;
+  }
+}
