@@ -1,8 +1,7 @@
 ## NOW
 
 4. About Page
-5. 404 Page
-6. Contact Page
+5. Contact Page
 
 ## ONCE COMPLETE
 
