@@ -14,9 +14,11 @@ const GiveBack = () => (
     <SEO title="Give Back" />
     <div className={giveStyles.container}>
       <h1>Give Back</h1>
-      <p>Currently not accepting donations.</p>
+      <p>
+        <i>*Currently not accepting donations*</i>
+      </p>
       <br />
-      <h3>Help out by buying a Guided Journal</h3>
+      {/* <h3>Help out by buying a Guided Journal</h3> */}
       <div className={giveStyles.mainOffer}>
         <MainOffer className={giveStyles.mainOffer} />
       </div>
