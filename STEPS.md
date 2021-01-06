@@ -1,7 +1,5 @@
 ## NOW
 
-2. FAQ Page
-3. Give Back Page
 4. About Page
 5. 404 Page
 6. Contact Page
@@ -35,14 +33,15 @@
 13. Better Coupon System
 14. Make FAQ Work
 15. Add Forum
-16. Refine (Styles, Code , etc)
-17. Speed up (https://www.youtube.com/watch?v=EYdJIKgLuCU&ab_channel=Gatsby) (https://www.youtube.com/watch?v=ZEIyRI2-Fa0&ab_channel=Gatsby)
-18. Accessibility (https://www.youtube.com/watch?v=qmcclQ7UPLk&ab_channel=Gatsby)
-19. Test
-20. Track Funnel
-21. Ask Feedback
-22. Pull in Buzzsprout API Data (https://github.com/Buzzsprout/buzzsprout-api)
-23. Copywriting (Go back and edit all writing)
-24. Posting Blogs Schedule?
-25. All products & Sub box pages
-26. Cart Page (Update how to checkout . . . you should have more products by now) (https://useshoppingcart.com/) (https://github.com/brxck/gatsby-starter-stripe)
+16. Give Back Page (donations)
+17. Refine (Styles, Code , etc)
+18. Speed up (https://www.youtube.com/watch?v=EYdJIKgLuCU&ab_channel=Gatsby) (https://www.youtube.com/watch?v=ZEIyRI2-Fa0&ab_channel=Gatsby)
+19. Accessibility (https://www.youtube.com/watch?v=qmcclQ7UPLk&ab_channel=Gatsby)
+20. Test
+21. Track Funnel
+22. Ask Feedback
+23. Pull in Buzzsprout API Data (https://github.com/Buzzsprout/buzzsprout-api)
+24. Copywriting (Go back and edit all writing)
+25. Posting Blogs Schedule?
+26. All products & Sub box pages
+27. Cart Page (Update how to checkout . . . you should have more products by now) (https://useshoppingcart.com/) (https://github.com/brxck/gatsby-starter-stripe)
