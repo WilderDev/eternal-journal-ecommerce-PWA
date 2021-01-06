@@ -10,11 +10,12 @@
 3. Figure out how to bring in Gatsby Image for all images + blog posts
 4. Install Analytics
 5. Add social media to site (home, blog, etc)
-6. Add Stripe Source Plugin pulling in data with Graphql to populate pages
-7. Add Star Ratings [https://www.npmjs.com/package/react-star-ratings]
-8. Add Search Functionality (https://www.youtube.com/watch?v=0Hgswu7Ulag&ab_channel=Crystallize) (https://www.gatsbyjs.com/docs/adding-search-with-js-search/) (https://www.stackbit.com/blog/gatsby-search/) (https://www.emgoto.com/gatsby-search/) (For products & blog)
-9. Web Push Notifications
-10. Authentication for users (https://www.youtube.com/watch?v=eMOnbgKRIYE&ab_channel=Gatsby) (Login, Register, User Profile . . .)
+6. Add Real words for (FAQ, AboutUs)
+7. Add Stripe Source Plugin pulling in data with Graphql to populate pages
+8. Add Star Ratings [https://www.npmjs.com/package/react-star-ratings]
+9. Add Search Functionality (https://www.youtube.com/watch?v=0Hgswu7Ulag&ab_channel=Crystallize) (https://www.gatsbyjs.com/docs/adding-search-with-js-search/) (https://www.stackbit.com/blog/gatsby-search/) (https://www.emgoto.com/gatsby-search/) (For products & blog)
+10. Web Push Notifications
+11. Authentication for users (https://www.youtube.com/watch?v=eMOnbgKRIYE&ab_channel=Gatsby) (Login, Register, User Profile . . .)
 
 ## WHEN ALL SAID & DONE
 
