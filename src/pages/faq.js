@@ -2,12 +2,15 @@ import React, { useState } from "react"
 
 import faqStyles from "../styles/faq.module.scss"
 import { FiArrowDown } from "@react-icons/all-files/fi/FiArrowDown"
+import { FiArrowUp } from "@react-icons/all-files/fi/FiArrowUp"
 
 import Layout from "../template/layout"
 import SEO from "../template/seo"
 
 function FAQ() {
-  const [hidden, isHidden] = useState(true)
+  const [hidden1, isHidden1] = useState(true)
+  const [hidden2, isHidden2] = useState(true)
+  const [hidden3, isHidden3] = useState(true)
 
   return (
     <Layout>
@@ -21,22 +24,64 @@ function FAQ() {
         <div className={faqStyles.bot}>
           <div className={faqStyles.question1}>
             <p>
-              <b>Q:</b>What is the taco stem of a goldfish?
+              <b>Q:</b> What is the taco stem of a goldfish?
             </p>
-            {hidden ? (
+            {hidden1 ? (
               <>
-                <a onClick={() => isHidden(false)}>
+                <button onClick={() => isHidden1(false)}>
                   <FiArrowDown />
-                </a>
+                </button>
               </>
             ) : (
               <>
                 <p>
-                  <b>A:</b>This should be hidden by default
+                  <b>A:</b> This should be hidden by default
                 </p>
-                <a onClick={() => isHidden(true)}>
+                <button onClick={() => isHidden1(true)}>
+                  <FiArrowUp />
+                </button>
+              </>
+            )}
+          </div>
+          <div className={faqStyles.question2}>
+            <p>
+              <b>Q:</b> Can I get it hand-signed?
+            </p>
+            {hidden2 ? (
+              <>
+                <button onClick={() => isHidden2(false)}>
                   <FiArrowDown />
-                </a>
+                </button>
+              </>
+            ) : (
+              <>
+                <p>
+                  <b>A:</b> Yeeee. Just ask
+                </p>
+                <button onClick={() => isHidden2(true)}>
+                  <FiArrowUp />
+                </button>
+              </>
+            )}
+          </div>
+          <div className={faqStyles.question3}>
+            <p>
+              <b>Q:</b> How many beef tenderloins does a Bushel feed?
+            </p>
+            {hidden3 ? (
+              <>
+                <button onClick={() => isHidden3(false)}>
+                  <FiArrowDown />
+                </button>
+              </>
+            ) : (
+              <>
+                <p>
+                  <b>A:</b> This should be hidden by default
+                </p>
+                <button onClick={() => isHidden3(true)}>
+                  <FiArrowUp />
+                </button>
               </>
             )}
           </div>
