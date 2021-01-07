@@ -1,47 +1,66 @@
-## NOW
+1. Shipping
+2. Admin Dashboard
+3. Automated emails: [confirm order, signup, . . .]
+4. Gatsby Image [All + Blog]
+5. Install Analytics
+6. Social Media: [home, blog, etc]
+7. Real Content: [FAQ, AboutUs]
+8. Web Push Notifications
+9. Netlify Update: (.toml, functions, webhooks, plugins)
+10. Email Signup: [Home, blog, indv. posts, footer?]
+11. RSS
 
-4. About Page
-5. Contact Page
+---
 
-## ONCE COMPLETE
+---
 
-1. Figure out shipping plugin / admin dashboard (https://github.com/brxck/gatsby-starter-stripe) (https://www.gatsbyjs.com/tutorial/authentication-tutorial/)
-2. Figure out automated emails for confirm order, signup, etc
-3. Figure out how to bring in Gatsby Image for all images + blog posts
-4. Install Analytics
-5. Add social media to site (home, blog, etc)
-6. Add Real words for (FAQ, AboutUs)
-7. Add Stripe Source Plugin pulling in data with Graphql to populate pages
-8. Add Star Ratings [https://www.npmjs.com/package/react-star-ratings]
-9. Add Search Functionality (https://www.youtube.com/watch?v=0Hgswu7Ulag&ab_channel=Crystallize) (https://www.gatsbyjs.com/docs/adding-search-with-js-search/) (https://www.stackbit.com/blog/gatsby-search/) (https://www.emgoto.com/gatsby-search/) (For products & blog)
-10. Web Push Notifications
-11. Authentication for users (https://www.youtube.com/watch?v=eMOnbgKRIYE&ab_channel=Gatsby) (Login, Register, User Profile . . .)
+---
 
-## WHEN ALL SAID & DONE
+---
 
-2. Add netlify.toml file
-3. add netlify functions, webhooks, plugins
-4. Add Subscribe to Home & Blog Page
-5. Write 3 Solid Blog Posts
-6. Add popup / signup form / RSS (to home page, footer, blog page, indiv blog posts)
-7. Create Lead Magnet & 3 Email Campaigns
-8. Add Page Transitions (https://www.gatsbyjs.com/plugins/gatsby-v2-plugin-page-transitions/)
-9. Google Lighthouse Report
-10. Fix all in that report (optimize images / code splitting . . . )
-11. Integrate Gatsby Cloud for Build Service
-12. Lazy Loading (intersection observer)
-13. Better Coupon System
-14. Make FAQ Work
-15. Add Forum
-16. Give Back Page (donations)
-17. Refine (Styles, Code , etc)
-18. Speed up (https://www.youtube.com/watch?v=EYdJIKgLuCU&ab_channel=Gatsby) (https://www.youtube.com/watch?v=ZEIyRI2-Fa0&ab_channel=Gatsby)
-19. Accessibility (https://www.youtube.com/watch?v=qmcclQ7UPLk&ab_channel=Gatsby)
-20. Test
-21. Track Funnel
-22. Ask Feedback
-23. Pull in Buzzsprout API Data (https://github.com/Buzzsprout/buzzsprout-api)
-24. Copywriting (Go back and edit all writing)
-25. Posting Blogs Schedule?
-26. All products & Sub box pages
-27. Cart Page (Update how to checkout . . . you should have more products by now) (https://useshoppingcart.com/) (https://github.com/brxck/gatsby-starter-stripe)
+---
+
+---
+
+---
+
+---
+
+---
+
+13. Page Transitions: [https://www.gatsbyjs.com/plugins/gatsby-v2-plugin-page-transitions/]
+14. Google Lighthouse: (100 score on all) - [https://www.youtube.com/watch?v=EYdJIKgLuCU&ab_channel=Gatsby] [https://www.youtube.com/watch?v=ZEIyRI2-Fa0&ab_channel=Gatsby]
+15. Gatsby Cloud
+16. Coupons
+17. Podcast Page API
+18. Forum
+19. Cart: [https://useshoppingcart.com/]
+20. Donations: [give back]
+21. 4 Blog posts + 1 Lead Magnet + 2 Email Campaigns
+22. Style Tweaks
+23. Copywriting Tweaks
+24. Accessibility [https://www.youtube.com/watch?v=qmcclQ7UPLk&ab_channel=Gatsby]
+25. Testing: (Jest / Cypress)
+26. Authentication for users (https://www.youtube.com/watch?v=eMOnbgKRIYE&ab_channel=Gatsby) (Login, Register, User Profile . . .)
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+27. Sub Box + All Products Pages
+28. Star Ratings [https://www.npmjs.com/package/react-star-ratings]
+29. Search Functionality (https://www.youtube.com/watch?v=0Hgswu7Ulag&ab_channel=Crystallize) (https://www.gatsbyjs.com/docs/adding-search-with-js-search/) (https://www.stackbit.com/blog/gatsby-search/) (https://www.emgoto.com/gatsby-search/) (For products & blog)

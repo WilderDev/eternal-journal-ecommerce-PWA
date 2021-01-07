@@ -27,7 +27,7 @@ const About = () => (
         <div className={aboutStyles.leftProf}>
           <h4>William Wilder</h4>
           <img
-            src="https://source.unsplash.com/random/100x100/?man"
+            src="https://source.unsplash.com/random/?man"
             alt="William Wilder"
           />
           <h5>Owner & Operations Manager</h5>
@@ -39,7 +39,7 @@ const About = () => (
         <div className={aboutStyles.rightProf}>
           <h4>Lauren Wilder</h4>
           <img
-            src="https://source.unsplash.com/random/100x100/?lady"
+            src="https://source.unsplash.com/random/?lady"
             alt="William Wilder"
           />
           <h5>Happiness Executive & Culture Creator</h5>
