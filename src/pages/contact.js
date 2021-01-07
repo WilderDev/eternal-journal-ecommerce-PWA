@@ -25,21 +25,21 @@ const Contact = () => {
             <input type="hidden" name="bot-field" />
             <input type="hidden" name="form-name" value="contact" />
             <div>
-              <label>Name</label>
+              <label for="name">Name</label>
               <input type="text" name="name" />
             </div>
             <div>
-              <label>Email</label>
+              <label for="email">Email</label>
               <input type="email" name="email" />
             </div>
             <div>
-              <label>Subject</label>
-              <input type="text" name="subject" />
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" />
             </div>
             <div>
-              <label>Message</label>
+              <label for="message">Message</label>
 
-              <textarea name="message" rows="5" />
+              <textarea name="message" id="message" rows="5" />
             </div>
             <button type="submit">
               Send <GrSend />

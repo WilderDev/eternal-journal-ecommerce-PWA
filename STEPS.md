@@ -36,7 +36,7 @@
 18. Forum
 19. Cart: [https://useshoppingcart.com/]
 20. Donations: [give back]
-21. 4 Blog posts + 1 Lead Magnet + 2 Email Campaigns
+21. 4 Blog posts + 1 Lead Magnet + 2 Email Campaigns + Next/Previous Links
 22. Style Tweaks
 23. Copywriting Tweaks
 24. Accessibility [https://www.youtube.com/watch?v=qmcclQ7UPLk&ab_channel=Gatsby]

@@ -14,6 +14,11 @@ const redirectToCheckout = async (event, paymentType) => {
   const { error } = await stripe.redirectToCheckout({
     mode: `${payMode}`,
     lineItems: [{ price: envPrice, quantity: 1 }],
+    billingAddressCollection: "required",
+    shippingAddressCollection: {
+      allowedCountries: ["US"],
+    },
+
     successUrl: `https://etnjournal.com/thank-you`,
     cancelUrl: `https://enjournal.com/`,
   })
