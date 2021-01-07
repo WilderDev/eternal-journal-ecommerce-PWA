@@ -12,8 +12,9 @@
 
 .formContainer {
   width: 70%;
-  margin: 30px auto;
+  margin: 40px auto 50px auto;
   border-radius: 4px;
+  border-top: 4px solid #52796f;
   box-shadow: 0px 8px 17px 2px rgba(0, 0, 0, 0.14),
     0px 3px 14px 2px rgba(0, 0, 0, 0.12), 0px 5px 5px -3px rgba(0, 0, 0, 0.2);
   transition: all 0.4s ease-in-out;
@@ -31,8 +32,47 @@
 }
 
 .formContainer label {
+  display: block;
 }
 
-.formContainer label input {
-  margin-left: 15px;
+.formContainer input {
+  margin-top: 3px;
+  margin-bottom: 12px;
+}
+
+.formContainer form textarea {
+  width: 75%;
+  margin-bottom: 17px;
+  margin-top: 3px;
+}
+
+.formContainer button {
+  font-size: 1.15rem;
+  width: 60%;
+  border-radius: 7px;
+  margin: 0 auto 15px auto;
+}
+
+.formContainer button:hover,
+.formContainer button:focus {
+  background: #52796f;
+}
+
+.thanks {
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 900px) and (orientation: landscape) {
+  .container h1 {
+    margin-top: 60px;
+  }
+}
+
+@media screen and (max-width: 542px) {
+  .container h1 {
+    margin-top: 70px;
+  }
+  .formContainer input {
+    width: 90%;
+  }
 }

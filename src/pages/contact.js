@@ -20,31 +20,33 @@ const Contact = () => {
             method="POST"
             netlify-honeypot="bot-field"
             data-netlify="true"
+            action="/guided-journals"
           >
             <input type="hidden" name="bot-field" />
             <input type="hidden" name="form-name" value="contact" />
-            <label>
-              Name
+            <div>
+              <label>Name</label>
               <input type="text" name="name" />
-            </label>
-            <label>
-              Email
+            </div>
+            <div>
+              <label>Email</label>
               <input type="email" name="email" />
-            </label>
-            <label>
-              Subject
+            </div>
+            <div>
+              <label>Subject</label>
               <input type="text" name="subject" />
-            </label>
-            <label>
-              Message
+            </div>
+            <div>
+              <label>Message</label>
+
               <textarea name="message" rows="5" />
-            </label>
+            </div>
             <button type="submit">
               Send <GrSend />
             </button>
           </form>
         </div>
-        <h4>Thank You So Much!</h4>
+        <h4 className={contactStyles.thanks}>Thank You So Much!</h4>
       </div>
     </Layout>
   )
