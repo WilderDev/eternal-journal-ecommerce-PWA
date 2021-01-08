@@ -1,14 +1,11 @@
-1. Shipping
-2. Admin Dashboard
-3. Automated emails: [confirm order, signup, . . .]
-4. Gatsby Image [All + Blog]
-5. Install Analytics
-6. Social Media: [home, blog, etc]
-7. Real Content: [FAQ, AboutUs]
-8. Web Push Notifications
-9. Netlify Update: (.toml, functions, webhooks, plugins)
-10. Email Signup: [Home, blog, indv. posts, footer?]
-11. RSS
+1. Automated emails: [confirm order, signup, . . .]
+2. Gatsby Image [All + Blog]
+3. Social Media: [home, blog, etc]
+4. Real Content: [FAQ, AboutUs]
+5. Web Push Notifications
+6. Netlify Update: (functions, webhooks, plugins)
+7. Email Signup: [Home, blog, indv. posts, footer?]
+8. RSS
 
 ---
 
@@ -62,5 +59,6 @@
 ---
 
 27. Sub Box + All Products Pages
-28. Star Ratings [https://www.npmjs.com/package/react-star-ratings]
-29. Search Functionality (https://www.youtube.com/watch?v=0Hgswu7Ulag&ab_channel=Crystallize) (https://www.gatsbyjs.com/docs/adding-search-with-js-search/) (https://www.stackbit.com/blog/gatsby-search/) (https://www.emgoto.com/gatsby-search/) (For products & blog)
+28. Better Shipping [https://goshippo.com/docs/stripe/]
+29. Star Ratings [https://www.npmjs.com/package/react-star-ratings]
+30. Search Functionality (https://www.youtube.com/watch?v=0Hgswu7Ulag&ab_channel=Crystallize) (https://www.gatsbyjs.com/docs/adding-search-with-js-search/) (https://www.stackbit.com/blog/gatsby-search/) (https://www.emgoto.com/gatsby-search/) (For products & blog)
