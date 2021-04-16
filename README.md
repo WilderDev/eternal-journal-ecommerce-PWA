@@ -1,6 +1,14 @@
-## Brand
-
 # Eternal Journal - Crystal Clarity Delivered
+
+---
+
+Link: https://etnjournal.com
+
+![Eternal Journal Homepage](src/images/logo/Eternal-Journal.png)
+
+---
+
+## Brand Info
 
 #1 Guided Journal Subscription Boxes
 
@@ -10,16 +18,34 @@ We are a Market-Driven Company with the pulse on people's true dreams, desires &
 
 Eternal Journal - Innovation Meets Empathy!
 
-# Fonts
+---
+
+### Fonts
 
 Headings: Sorts Mill Goudy (Regular - 400)
+
 Body: Montserrat (Light - 300)
+
 Accent: Oswald (Semi-Bold - 600)
 
-# Colors
+### Colors
 
 Primary: #52796F
+
 Secondary: #856D8A
+
 Accent: #CAD2C5
+
 Light: #FFFFFF
+
 Dark: #2F3E46
+
+---
+
+## Technologies
+
+- Gatsby
+- React
+- GraphQL
+- Stripe
+- Netlify
