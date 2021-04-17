@@ -20,7 +20,7 @@ const redirectToCheckout = async (event, paymentType) => {
     },
 
     successUrl: `https://etnjournal.com/thank-you`,
-    cancelUrl: `https://enjournal.com/`,
+    cancelUrl: `https://etnjournal.com/`,
   })
 
   if (error) {
